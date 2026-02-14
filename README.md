@@ -6,6 +6,7 @@ This project implements a real-time multi-class fruit classification system usin
 
 The pipeline moves from:
 Data → Augmentation → Transfer Learning → Evaluation → Real-Time Deployment
+
 It demonstrates practical ML engineering beyond notebook experimentation.
 
 # 📂 Dataset
