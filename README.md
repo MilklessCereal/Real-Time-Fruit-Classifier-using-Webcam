@@ -117,13 +117,21 @@ Robust frame validation checks
 # 🛠 Tech Stack
 
 Python
+
 TensorFlow / Keras
+
 MobileNetV2 (ImageNet pretrained)
+
 OpenCV
+
 NumPy
+
 Scikit-learn
+
 Matplotlib
+
 JavaScript
+
 Google Colab
 
 
