@@ -9,7 +9,7 @@ Data → Augmentation → Transfer Learning → Evaluation → Real-Time Deploym
 
 # 📂 Dataset
 
-Source: Kaggle – Fruit Classification (10 Classes)
+Source: Fruit Classification (10 Classes) 
 https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class
 
 10 Classes
