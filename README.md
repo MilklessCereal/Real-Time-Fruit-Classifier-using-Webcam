@@ -15,6 +15,12 @@ https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class
 
 10 Classes
 
+Perfectly Distributed Class Distribution: 
+
+184 images per class (Training)
+
+46 images per class (Validation)
+
 # 📊 Model Performance
 
 Test Set Results (460 images, 10 classes):
@@ -24,22 +30,6 @@ Accuracy: 76%
 Macro F1-Score: 0.76
 
 Weighted F1-Score: 0.76
-
-Perfectly Distributed Class Distribution: 46 images per class
-
-Per-Class Highlights
-
-🍍 Pineapple: F1 = 0.87
-
-🍓 Strawberries: F1 = 0.86
-
-🍒 Cherry: F1 = 0.83
-
-🍌 Banana: Recall = 0.87
-
-🥭 Mango: Hardest class (F1 = 0.58)
-
-The balanced macro average confirms consistent performance across categories rather than bias toward dominant classes.
 
 # 🧠 Model Architecture
 
