@@ -24,11 +24,13 @@ Perfectly Distributed Class Distribution:
 
 Test Set Results (460 images, 10 classes):
 
-Accuracy: 76%
+Decently Overfit
 
-Macro F1-Score: 0.76
+Accuracy: 90%
 
-Weighted F1-Score: 0.76
+Macro F1-Score: 0.90
+
+Weighted F1-Score: 0.90
 
 # 🧠 Model Architecture
 
@@ -39,15 +41,13 @@ The MobileNetV2 backbone was initialized with ImageNet weights and used as a fix
 
 ## Architecture Design
 
-Input: 128×128 grayscale
-
-Conv2D layer converts 1-channel → 3-channel
+Input: 128×128 RGB
 
 MobileNetV2 (feature extraction)
 
 GlobalAveragePooling2D
 
-Dense(128) + Dropout(0.5)
+Dense(128) + Dropout(0.7)
 
 Softmax output (10 classes)
 
@@ -77,31 +77,9 @@ Inference Pipeline
 
 Capture frame from webcam
 
-Convert to grayscale
+Resize to 128×128 + Normalize + Add batch + channel dimensions
 
-Resize to 128×128
-
-Normalize
-
-Add batch + channel dimensions
-
-Predict
-
-Overlay label + confidence
-
-Example:
-
-Prediction: Pineapple (0.91)
-
-This demonstrates:
-
-Practical model deployment logic
-
-Cross-language integration (JS ↔ Python)
-
-Real-time inference handling
-
-Robust frame validation checks
+Predict -> Overlay label + confidence
 
 # 🛠 Tech Stack
 
@@ -123,14 +101,7 @@ JavaScript
 
 Google Colab
 
-
 # 🔬 Notes and Future Imrpovements/Plans
-
-Mango and Orange classes show lower recall → potential feature similarity issues
-
-Using RGB instead of grayscale could improve separability
-
-Fine-tuning top MobileNetV2 layers may increase performance
 
 Could be extended to object detection (YOLO) instead of full-frame classification 
 
