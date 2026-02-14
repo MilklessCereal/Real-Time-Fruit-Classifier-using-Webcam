@@ -35,7 +35,8 @@ Weighted F1-Score: 0.76
 
 ## Pre Trained Model: 
 MobileNetV2 (ImageNet pretrained)
-Trainig set to frozen
+
+The MobileNetV2 backbone was initialized with ImageNet weights and used as a fixed feature extractor. During training, only the custom classification layers was optimized while backbone parameters remained unchanged.
 
 ## Architecture Design
 
