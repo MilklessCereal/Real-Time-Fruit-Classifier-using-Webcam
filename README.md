@@ -13,8 +13,7 @@ It demonstrates practical ML engineering beyond notebook experimentation.
 Source: Kaggle – Fruit Classification (10 Classes)
 https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class
 
-10 fruit categories
-
+10 Classes
 
 # 📊 Model Performance
 
