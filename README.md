@@ -1,5 +1,5 @@
-# 🍎 Real-Time Fruit Classification with MobileNetV2
-Transfer Learning + Real-Time Webcam Inference (Google Colab)
+# Real-Time Fruit Classification with MobileNetV2
+Transfer Learning + Real-Time Webcam Inference in Google Colab
 
 ## 🚀 Project Overview
 This project implements a real-time multi-class fruit classification system using transfer learning with MobileNetV2 and live webcam inference.
