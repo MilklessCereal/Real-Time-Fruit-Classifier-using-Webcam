@@ -1,13 +1,13 @@
 # Real-Time Fruit Classification with MobileNetV2
 Transfer Learning + Real-Time Webcam Inference in Google Colab
 
-## 🚀 Project Overview
+## Project Overview
 This project implements a real-time multi-class fruit classification system using transfer learning with MobileNetV2 and live webcam inference.
 
 The pipeline moves from:
 Data → Augmentation → Transfer Learning → Evaluation → Real-Time Deployment
 
-## 📂 Dataset
+## Dataset
 
 Source: Fruit Classification (10 Classes) 
 https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class
@@ -20,7 +20,7 @@ Perfectly Distributed Class Distribution:
 
 46 images per class (Validation)
 
-## 📊 Model Performance
+## Model Performance
 
 Test Set Results (460 images, 10 classes):
 
@@ -32,7 +32,7 @@ Macro F1-Score: 0.90
 
 Weighted F1-Score: 0.90
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Pre Trained Model: 
 MobileNetV2 (ImageNet pretrained)
@@ -51,7 +51,7 @@ Dense(128) + Dropout(0.7)
 
 Softmax output (10 classes)
 
-## 📈 Evaluation Components
+## Evaluation Components
 
 Training vs Validation Accuracy Line Graphs
 
@@ -61,7 +61,7 @@ Full Classification Report
 
 Confusion Matrix 
 
-## 📸 Real-Time Deployment (Colab Webcam)
+## Real-Time Deployment (Colab Webcam)
 
 This project integrates a live webcam pipeline using:
 
@@ -81,7 +81,7 @@ Resize to 128×128 + Normalize + Add batch + channel dimensions
 
 Predict -> Overlay label + confidence
 
-## 🛠 Tech Stack
+## Tech Stack
 
 Python
 
@@ -101,7 +101,7 @@ JavaScript
 
 Google Colab
 
-## 🔬 Notes and Future Imrpovements/Plans
+## Notes and Future Imrpovements/Plans
 
 Could be extended to object detection (YOLO) instead of full-frame classification 
 
